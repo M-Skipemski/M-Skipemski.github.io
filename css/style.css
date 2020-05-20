@@ -39,7 +39,7 @@ body {
   outline: none; }
 
 .home {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -49,7 +49,7 @@ body {
   background-size: cover; }
 
 .location {
-  height: 60vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -63,7 +63,7 @@ body {
     margin-bottom: 2rem; }
 
 .instructions {
-  height: 40vh;
+  min-height: 40vh;
   background-color: #dba967;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,7 @@ body {
   outline: none; }
 
 .puzzle {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -148,7 +148,7 @@ body {
     outline: none; }
 
 .picknick {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
